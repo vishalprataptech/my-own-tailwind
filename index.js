@@ -374,8 +374,8 @@ an.forEach((chai) => {
           display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5%;
-  background-color: #ffffff;
+  padding: 1rem 10%;
+  background-color: #f3f5f1;
   box-shadow: 0 2px 10px rgba(213, 54, 54, 0.1);
   position: sticky;
   top: 0;
@@ -385,7 +385,7 @@ an.forEach((chai) => {
 const ao = document.querySelectorAll(".footer");
 ao.forEach((chai) => {
     chai.setAttribute("style",`
-          background-color: #aee6b6;
+          background-color: #63a9e3;
   color: #fff;
   padding: 40px 5%;
   font-family: sans-serif;`)
