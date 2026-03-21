@@ -35,12 +35,12 @@ c.forEach((chai) => {
     chai.setAttribute("style",`
           font-size: 1.125rem;       
   line-height: 1.6;         
-  color: #6412e8;              
+  color: #17121f;              
   margin-bottom: 1.5rem;    
   max-width: 65ch;`)
 
 });
-const d = document.querySelectorAll("h2tag");
+const d = document.querySelectorAll(".h2");
 d.forEach((chai) => {
     chai.setAttribute("style",`
           font-size: 2rem;             
@@ -52,7 +52,7 @@ d.forEach((chai) => {
   letter-spacing: -0.01em;`)
 
 });
-const e = document.querySelectorAll("h3");
+const e = document.querySelectorAll(".h3");
 e.forEach((chai) => {
     chai.setAttribute("style",`
           font-size: 1.5rem;         
@@ -63,7 +63,7 @@ e.forEach((chai) => {
   line-height: 1.4; `)
 
 });
-const f = document.querySelectorAll("h4");
+const f = document.querySelectorAll(".h4");
 f.forEach((chai) => {
     chai.setAttribute("style",`
           font-size: 1.25rem;        
@@ -74,7 +74,7 @@ f.forEach((chai) => {
   line-height: 1.4;`)
 
 });
-const g = document.querySelectorAll("h5");
+const g = document.querySelectorAll(".h5");
 g.forEach((chai) => {
     chai.setAttribute("style",`
           font-size: 1.1rem;          
@@ -85,7 +85,7 @@ g.forEach((chai) => {
   line-height: 1.3;`)
 
 });
-const h = document.querySelectorAll("h6");
+const h = document.querySelectorAll(".h6");
 h.forEach((chai) => {
     chai.setAttribute("style",`
           font-size: 0.875rem;     
@@ -154,7 +154,7 @@ o.forEach((chai) => {
 const p = document.querySelectorAll(".img");
 p.forEach((chai) => {
     chai.setAttribute("style",`
-          max-width: 100%;    
+          max-width: 15%;    
   height: auto;       
   display: block;`)
 
@@ -184,9 +184,12 @@ r.forEach((chai) => {
 const s = document.querySelectorAll(".ul");
 s.forEach((chai) => {
     chai.setAttribute("style",`
-          list-style-type: none;      
-  padding: 0;                 
-  margin: 1.5rem 0;`)
+  display: flex;
+  list-style: none;
+  gap: 18rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;`)
 
 });
 const t = document.querySelectorAll(".li");
@@ -307,9 +310,12 @@ ai.forEach((chai) => {
 const aj = document.querySelectorAll(".form");
 aj.forEach((chai) => {
     chai.setAttribute("style",`
-          max-width: 500px;           
-  margin: 2rem auto;         
-  padding: 2rem;              
+          max-width: 1500px;           
+  margin: 0rem auto;         
+  padding: 1rem;
+    display: flex;
+  align-items: center;
+  gap: 1000px              
   background-color: #ffffff;  
   border-radius: 12px;        
   box-shadow: 0 10px 25px rgba(31, 184, 125, 0.05); 
@@ -374,10 +380,11 @@ an.forEach((chai) => {
           display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 10%;
+  padding: 1rem 5%;
   background-color: #f3f5f1;
   box-shadow: 0 2px 10px rgba(213, 54, 54, 0.1);
   position: sticky;
+
   top: 0;
   z-index: 1000;`)
 
@@ -394,9 +401,9 @@ ao.forEach((chai) => {
 const ap = document.querySelectorAll(".main");
 ap.forEach((chai) => {
     chai.setAttribute("style",`
-          max-width: 1200px;
+          max-width: auto;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 1px 1px;
   min-height: calc(100vh - 200px);
   line-height: 1.6;
   color: #5ae63b;`)
@@ -416,10 +423,10 @@ aq.forEach((chai) => {
 const ar = document.querySelectorAll(".section");
 ar.forEach((chai) => {
     chai.setAttribute("style",`
-          padding: 60px 20px;
-  margin-bottom: 40px;
+          padding: 1px 10px;
+  margin-bottom: 2px;
   background-color: #f9f9f9;
-  border-radius: 12px;
+  border-radius: 1px;
   overflow: hidden;`)
 
 }); 
@@ -427,10 +434,13 @@ const as = document.querySelectorAll(".aside");
 as.forEach((chai) => {
     chai.setAttribute("style",`
           flex: 0 0 300px;
-  padding: 25px;
+  padding: 10px;
+ margin-bottom: 2px;
   background-color: #f8f9fa;
   border-left: 4px solid #007bff;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 2px 2px 0;
+ 
+
   height: fit-content;`)
 
 }); 
@@ -506,5 +516,20 @@ ay.forEach((chai) => {
         display: none;`)
 
 }); 
+const az = document.querySelectorAll(".nav");
+az.forEach((chai) => {
+    chai.setAttribute("style",`
+         display: flex;
+  gap: 1.5rem;;`)
 
- 
+}); 
+
+const ppp = document.querySelectorAll(".watch");
+ppp.forEach((chai) => {
+    chai.setAttribute("style",`
+          max-width: 25%;    
+  height: auto;       
+  display: block;`)
+
+});
+
